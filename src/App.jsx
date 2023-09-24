@@ -11,6 +11,7 @@ import UseEffectCleanUp from './UseEffectCleanUp'
 import {GreetingsComp, HelloWorldComp} from './pages'
 import Form from './Form'
 import Challenge from './Challenge'
+import Form2 from './Form2'
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
       <HelloWorldComp />
       <Form />
       <Challenge />
+      <Form2 />
     </>
   )
 }
