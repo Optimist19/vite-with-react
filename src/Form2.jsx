@@ -20,13 +20,6 @@ function Form2() {
         [e.target.value]: e.target.value
       };
     });
-
-    // setUserDetails(prev => ({prev, [e.target.value]: e.target.value})) // any of the setUserDetails works, but spreading the prev did not work. I don't know why
-
-    // setUserDetails({...userDetails, [e.target.value]: e.target.value}) // this approach did not work with the spread
-
-    // console.log(e.target.value)
-    // console.log(e.target.name)
   }
 
   return (
